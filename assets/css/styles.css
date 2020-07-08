@@ -1,13 +1,12 @@
 /*reset*/
 * {
   vertical-align: baseline;
-  font-family: inherit;
-  font-style: inherit;
+
   font-size: 100%;
-  border: none;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 /*root-var*/
@@ -30,6 +29,23 @@ body {
 
 
 /*Notes: declaration order is by type*/
+
+/*OTHERS*/
+.position-right{
+
+
+}
+.p-grey{}
+
+.position-right>button{
+border:1px solid red;
+
+}
+
+.fa-lock{
+  border:1px solid red;
+
+}
 
 /*-------header-body----*/
 
