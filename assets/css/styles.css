@@ -1,0 +1,184 @@
+/*reset*/
+* {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*root-var*/
+:root {
+  --main-bg-color: #e6e6e6;
+  /*works*/
+  --header-bg-color: #fff;
+  /*works*/
+  /*not working no fallback*/
+  --para-font-color: rgb(110, 110, 110);
+}
+
+/*debug*/
+
+body {
+  background-color: rgb(247, 247, 247);
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*Notes: declaration order is by type*/
+
+/*-------header-body----*/
+
+.header-body {
+  /* Positioning */
+  /* Display & Box Model */
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+/*---main-containe--*/
+
+.main-container {
+    /* Positioning */
+  /* Display & Box Model */
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.header-main {
+    /* Positioning */
+  /* Display & Box Model */
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.form-main {
+    /* Positioning */
+  /* Display & Box Model */
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.footer-main {
+    /* Positioning */
+  /* Display & Box Model */
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+/*---footer-body---*/
+.footer-body {
+    /* Positioning */
+  /* Display & Box Model */
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.fa {
+  /* Positioning */
+  /* Display & Box Model */
+  width: 28;
+  height: 28px;
+
+  /* Color */
+  color: black;
+  /* Text */
+  /* Other */
+
+}
+
+
+.flex-center {
+
+  /* Positioning */
+  /* Display & Box Model */
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+
+  /* Color */
+  /* Text */
+  /* Other */
+
+}
+
+
+
+.flex-even {
+  /* Positioning */
+  /* Display & Box Model */
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+
+  /* Color */
+  /* Text */
+  /* Other */
+
+
+}
+
+.flex-end {
+  /* Positioning */
+  /* Display & Box Model */
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+
+  /* Color */
+
+  /* Text */
+  /* Other */
+
+}
+
+.flex-between {
+  /* Positioning */
+  /* Display & Box Model */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.flex-around {
+  /* Positioning */
+  /* Display & Box Model */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  /* Color */
+  /* Text */
+  /* Other */
+
+}
+
+.flex-start {
+  /* Positioning */
+
+  /* Display & Box Model */
+  display: flex;
+  justify-content: flex-start;
+  justify-items: center;
+
+  /* Color */
+  /* Text */
+  /* Other */
+
+
+}
