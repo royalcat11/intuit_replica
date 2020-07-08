@@ -55,40 +55,52 @@
 
             <label for="email">
                 Email
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
             </label>
 
             <label for="phone">
                 Phone (recommended)
                 <input type="tel" name="phone" id="phone">
             </label>
+            <p>Standard call, messaging or data rates may apply.</p>
+
             <label for="pwd">
                 Password
-                <input type="password" name="pwd" id="pwd">
+                <input type="password" name="pwd" id="pwd" required>
+
+
             </label>
 
+            <button type="submit" class="flex-center">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <p>Create Account</p>
+            </button>
 
         </form>
 
-        <div class="icons">
-            <i class="fa fa-lock" aria-hidden="true"></i>
-        </div>
-        <div class="icons">
-
-            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
-        </div>
         <!--footer-main-->
-        <footer class="footer-main"></footer>
-        <div class="trans-footer"></div>
+        <footer class="footer-main">
+            <p> By clicking Create account, you agree to our
+                <a href="#">Terms</a> and have read and acknowledge our <a href="#"> Privacy Statement</a>.</p>
+
+        </footer>
+        <div class="trans-footer">
+
+            <p> Invisible reCAPTCHA by Google <a href="#"> Privacy Policy</a> and <a href="#"> Terms of Use.</a> </p>
+
+        </div>
     </main>
     <!--footer-body-->
     <footer class="footer-body">
-        <nav class="footer-nav">
+        <nav class="footer-nav flex-center ">
             <ul>
-
-
+                <li> <a href="#">Legal</a> </li>
+                <li> <a href="#">Privacy</a> </li>
+                <li> <a href="#">Security</a> </li>
             </ul>
         </nav>
+        <p class="copy">&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
 </body>
 

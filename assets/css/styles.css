@@ -67,6 +67,7 @@ img {
 .fa-lock {
   border: 1px solid red;
 
+
 }
 
 /*-------header-body----*/
@@ -139,7 +140,7 @@ li {
   background-color: #fff;
 
   /* Text */
-  text-align: center;
+  
   /* Other */
 }
 
@@ -147,7 +148,7 @@ li {
   /* Positioning */
   /* Display & Box Model */
   padding-bottom: 20px;
-
+  text-align: center;
   /* Color */
   border: 1px solid orange;
   /* Text */
@@ -158,12 +159,17 @@ li {
   font-size:14px;
 
 }
+
 .form-main {
   /* Positioning */
   /* Display & Box Model */
   /* Color */
   /* Text */
   /* Other */
+}
+.btn-submit, input{
+  display: block;
+  text-align: right;
 }
 
 .footer-main {
