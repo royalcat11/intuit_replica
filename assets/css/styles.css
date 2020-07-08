@@ -16,7 +16,7 @@
   --header-bg-color: #fff;
   /*works*/
   /*not working no fallback*/
-  --para-font-color: rgb(110, 110, 110);
+  --para-font-color: #505050;
 }
 
 /*debug*/
@@ -24,12 +24,18 @@
 body {
   background-color: var(--body-bg-color);
   font-family: 'Roboto', sans-serif;
+  color: var(--para-font-color);
 }
 
 
 /*Notes: declaration order is by type*/
 
 /*OTHERS*/
+.position-right a {
+  color: #0077C5;
+  text-decoration: none;
+}
+
 .position-right {
   /* Positioning */
   position: ab;
@@ -42,6 +48,9 @@ body {
   /* Other */
 }
 
+.link-out{
+  color: #0077C5;
+}
 
 
 img {
@@ -61,11 +70,21 @@ img {
 }
 
 /*-------header-body----*/
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {}
+
+a:active {}
+
+a:visited {}
 
 .header-body {
   /* Positioning */
   /* Display & Box Model */
-  width: 400px;
+  max-width: 380px;
   margin: 0 auto;
   /* Color */
   border: 1px solid red;
@@ -76,7 +95,7 @@ img {
 
 .logo {
   margin: 0 auto;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 
 }
 
@@ -92,7 +111,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-bottom:4px;
+  padding-bottom: 4px;
 
   /* Color */
 
@@ -112,21 +131,33 @@ li {
 .main-container {
   /* Positioning */
   /* Display & Box Model */
+  max-width: 380px;
+  margin: 0 auto;
+  padding:30px;
+
   /* Color */
   background-color: #fff;
 
   /* Text */
+  text-align: center;
   /* Other */
 }
 
-.header-main {
+.header-main  {
   /* Positioning */
   /* Display & Box Model */
+  padding-bottom: 20px;
+
   /* Color */
+  border: 1px solid orange;
   /* Text */
   /* Other */
 }
+.header-main p {
+  line-height: 2;
+  font-size:14px;
 
+}
 .form-main {
   /* Positioning */
   /* Display & Box Model */

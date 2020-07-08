@@ -12,11 +12,11 @@
 <body>
     <!--sign in section-->
     <div class="position-right">
-            <p> <span class="p-grey">Already have an Intuit account?</span></p>
-            <a href="#">I forgot my User ID or Password
-            </a>
-            <button type="button"><i class="fa fa-lock" aria-hidden="true"></i> Sign In
-            </button>
+        <p> <span class="p-grey">Already have an Intuit account?</span></p>
+        <a class="link-in" href="#">I forgot my User ID or Password
+        </a>
+        <button type="button"><i class="fa fa-lock" aria-hidden="true"></i> Sign In
+        </button>
     </div>
 
 
@@ -24,7 +24,7 @@
     <!--header-body-->
     <header class="header-body">
 
-        <a href="#"><img class="logo"src="/intuit_replica/assets/images/title.JPG" alt=""></a>
+        <a href="#"><img class="logo" src="/intuit_replica/assets/images/title.JPG" alt=""></a>
         <nav class="header-nav">
             <ul>
 
@@ -43,11 +43,32 @@
 
         <!--header-main-->
         <header class="header-main">
-
+            <h3>Create an Intuit account
+            </h3>
+            <p>One account for everything Intuit, including Mint.</p>
+            <a class="link-out" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+                target="_blank">Learn more</a>
         </header>
         <!--form-main-->
 
-        <form action="" class="form-main"></form>
+        <form action="#" method="GET" class="form-main">
+
+            <label for="email">
+                Email
+                <input type="email" name="email" id="email">
+            </label>
+
+            <label for="phone">
+                Phone (recommended)
+                <input type="tel" name="phone" id="phone">
+            </label>
+            <label for="pwd">
+                Password
+                <input type="password" name="pwd" id="pwd">
+            </label>
+
+
+        </form>
 
         <div class="icons">
             <i class="fa fa-lock" aria-hidden="true"></i>
