@@ -11,7 +11,7 @@
 
 /*root-var*/
 :root {
-  --main-bg-color: #e6e6e6;
+  --body-bg-color: #eceef1;
   /*works*/
   --header-bg-color: #fff;
   /*works*/
@@ -22,28 +22,41 @@
 /*debug*/
 
 body {
-  background-color: rgb(247, 247, 247);
+  background-color: var(--body-bg-color);
   font-family: 'Roboto', sans-serif;
-
 }
 
 
 /*Notes: declaration order is by type*/
 
 /*OTHERS*/
-.position-right{
+.position-right {
+  /* Positioning */
+  position: ab;
+  right: 0px;
+  top: 0px;
+  float: right;
+  /* Display & Box Model */
+  /* Color */
+  /* Text */
+  /* Other */
+}
 
+
+
+img {
+  display: block;
+}
+
+.p-grey {}
+
+.position-right>button {
+  border: 1px solid red;
 
 }
-.p-grey{}
 
-.position-right>button{
-border:1px solid red;
-
-}
-
-.fa-lock{
-  border:1px solid red;
+.fa-lock {
+  border: 1px solid red;
 
 }
 
@@ -52,23 +65,62 @@ border:1px solid red;
 .header-body {
   /* Positioning */
   /* Display & Box Model */
+  width: 400px;
+  margin: 0 auto;
   /* Color */
+  border: 1px solid red;
   /* Text */
   /* Other */
+  clear: both;
+}
+
+.logo {
+  margin: 0 auto;
+  padding-bottom:20px;
+
+}
+
+.title {}
+
+.header-nav,
+ul,
+li {
+
+  /* Positioning */
+  /* Display & Box Model */
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom:4px;
+
+  /* Color */
+
+  /* Text */
+  /* Other */
+}
+
+.header-nav img {
+  display: block;
+  width: 28px;
+  height: 30px;
+
 }
 
 /*---main-containe--*/
 
 .main-container {
-    /* Positioning */
+  /* Positioning */
   /* Display & Box Model */
   /* Color */
+  background-color: #fff;
+
   /* Text */
   /* Other */
 }
 
 .header-main {
-    /* Positioning */
+  /* Positioning */
   /* Display & Box Model */
   /* Color */
   /* Text */
@@ -76,7 +128,7 @@ border:1px solid red;
 }
 
 .form-main {
-    /* Positioning */
+  /* Positioning */
   /* Display & Box Model */
   /* Color */
   /* Text */
@@ -84,7 +136,7 @@ border:1px solid red;
 }
 
 .footer-main {
-    /* Positioning */
+  /* Positioning */
   /* Display & Box Model */
   /* Color */
   /* Text */
@@ -93,7 +145,7 @@ border:1px solid red;
 
 /*---footer-body---*/
 .footer-body {
-    /* Positioning */
+  /* Positioning */
   /* Display & Box Model */
   /* Color */
   /* Text */
