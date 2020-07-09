@@ -66,7 +66,7 @@ img {
 
 /*-------header-body----*/
 a {
-  color: grey;
+  color:rgb(0, 119, 197);
   text-decoration: none;
 }
 
@@ -132,6 +132,7 @@ li {
   /* Color */
   background-color: #fff;
   border: 1px solid rgb(199, 199, 199);
+  border-bottom: transparent;
   /* Text */
 
   /* Other */
@@ -168,7 +169,6 @@ h3 {
 .form-main {
   /* Positioning */
   /* Display & Box Model */
-  height: auto;
   /* Color */
   /* Text */
   line-height: 2;
@@ -191,24 +191,38 @@ h3 {
   border-radius: 3px;
   line-height: 1.3em;
 
+
 }
 
 label,
-input,
-button {
+input {
   display: block;
 }
 
 .submit {
   /* Positioning */
   /* Display & Box Model */
+  width: 100%;
+  height: 44px;
   margin-bottom: 30px;
+  padding: 6px 12px;
 
   /* Color */
+  background: linear-gradient(to bottom, #167CCC 0%, #0077C5 100%);
+  border-color: #0077C5;
   /* Text */
+  color: #FFF;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
   /* Other */
-}
+  cursor: pointer;
 
+}
+.submit:hover {
+ background-color: red;
+}
 
 label {
   margin-bottom: 30px;
@@ -224,16 +238,20 @@ label {
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
+  font-style: italic;
   /* Other */
 }
 
 .trans-footer {
   background-color: transparent;
   border: 1px solid rgb(199, 199, 199);
-
+  border-top: transparent;
   max-width: 380px;
+  height: 53px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 16px;
+  font-size: 10px;
+  color: #8d9096;
 }
 
 /*---footer-body---*/
