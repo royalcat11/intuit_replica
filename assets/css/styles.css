@@ -25,6 +25,7 @@ body {
   background-color: var(--body-bg-color);
   font-family: "Arial", sans-serif;
   color: var(--para-font-color);
+  width: 100%;
 }
 
 
@@ -66,7 +67,7 @@ img {
 
 /*-------header-body----*/
 a {
-  color:rgb(0, 119, 197);
+  color: rgb(0, 119, 197);
   text-decoration: none;
 }
 
@@ -220,8 +221,9 @@ input {
   cursor: pointer;
 
 }
+
 .submit:hover {
- background-color: red;
+  background-color: red;
 }
 
 label {
@@ -258,11 +260,36 @@ label {
 .footer-body {
   /* Positioning */
   /* Display & Box Model */
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
   /* Color */
   /* Text */
+  font-size: 12px;
+  text-align: center;
+
   /* Other */
 }
 
+.footer-nav {
+  width: 10%;
+  margin: 0 auto;
+  
+}
+
+.footer-nav li  {
+  margin-left: 5px;
+
+}
+
+.footer-nav a{
+  color: #505050;
+
+}
+.footer-body p{
+  width:50%;
+  margin: 0 auto;
+}
 .fa {
   /* Positioning */
   /* Display & Box Model */
@@ -284,7 +311,6 @@ label {
   display: flex;
   justify-items: center;
   justify-content: center;
-
   /* Color */
   /* Text */
   /* Other */
@@ -303,7 +329,6 @@ label {
   /* Color */
   /* Text */
   /* Other */
-
 
 }
 
