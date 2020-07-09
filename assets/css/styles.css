@@ -16,14 +16,14 @@
   --header-bg-color: #fff;
   /*works*/
   /*not working no fallback*/
-  --para-font-color: #505050;
+  --para-font-color: #4C4C4C;
 }
 
 /*debug*/
 
 body {
   background-color: var(--body-bg-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Arial", sans-serif;
   color: var(--para-font-color);
 }
 
@@ -48,8 +48,9 @@ body {
   /* Other */
 }
 
-.link-out{
+.link-out {
   color: #0077C5;
+  font-size: 12px;
 }
 
 
@@ -59,16 +60,9 @@ img {
 
 .p-grey {}
 
-.position-right>button {
-  border: 1px solid red;
+.position-right>button {}
 
-}
-
-.fa-lock {
-  border: 1px solid red;
-
-
-}
+.fa-lock {}
 
 /*-------header-body----*/
 a {
@@ -88,7 +82,6 @@ a:visited {}
   max-width: 380px;
   margin: 0 auto;
   /* Color */
-  border: 1px solid red;
   /* Text */
   /* Other */
   clear: both;
@@ -134,50 +127,113 @@ li {
   /* Display & Box Model */
   max-width: 380px;
   margin: 0 auto;
-  padding:30px;
+  padding: 30px;
 
   /* Color */
   background-color: #fff;
-
+  border: 1px solid rgb(199, 199, 199);
   /* Text */
-  
+
   /* Other */
 }
 
-.header-main  {
+.header-main {
   /* Positioning */
   /* Display & Box Model */
   padding-bottom: 20px;
   text-align: center;
   /* Color */
-  border: 1px solid orange;
   /* Text */
+
   /* Other */
 }
+
+h3 {
+  font-size: 24px;
+  line-height: 3;
+
+  font-weight: 400;
+}
+
 .header-main p {
-  line-height: 2;
-  font-size:14px;
+  font-size: 14px;
+
+}
+
+.small-p {
+  font-size: 12px;
 
 }
 
 .form-main {
   /* Positioning */
   /* Display & Box Model */
+  height: auto;
+  /* Color */
+  /* Text */
+  line-height: 2;
+  font-size: 14px;
+  /* Other */
+}
+
+.form-main input,
+.submit {
+  height: 34px;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  border: 1px solid #d8d8d8;
+  color: #000000;
+  outline: none;
+  font-size: 1.2em;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  line-height: 1.3em;
+
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+.submit {
+  /* Positioning */
+  /* Display & Box Model */
+  margin-bottom: 30px;
+
   /* Color */
   /* Text */
   /* Other */
 }
-.btn-submit, input{
-  display: block;
-  text-align: right;
+
+
+label {
+  margin-bottom: 30px;
 }
+
 
 .footer-main {
   /* Positioning */
   /* Display & Box Model */
+  padding: 10px;
   /* Color */
   /* Text */
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
   /* Other */
+}
+
+.trans-footer {
+  background-color: transparent;
+  border: 1px solid rgb(199, 199, 199);
+
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 /*---footer-body---*/

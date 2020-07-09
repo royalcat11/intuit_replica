@@ -54,24 +54,25 @@
         <form action="#" method="GET" class="form-main">
 
             <label for="email">
-                Email
-                <input type="email" name="email" id="email" required>
+                Email address
+                <input class="email" type="email" name="email" id="email" required>
             </label>
 
             <label for="phone">
                 Phone (recommended)
-                <input type="tel" name="phone" id="phone">
+                <input class="tell" type="tel" name="phone" id="phone">
+                <p> <span class="small-p"> Standard call, messaging or data rates may apply.</span></p>
+
             </label>
-            <p>Standard call, messaging or data rates may apply.</p>
 
             <label for="pwd">
                 Password
-                <input type="password" name="pwd" id="pwd" required>
+                <input class="pwd" type="password" name="pwd" id="pwd" required>
 
 
             </label>
 
-            <button type="submit" class="flex-center">
+            <button type="submit" class="flex-center submit">
                 <i class="fa fa-lock" aria-hidden="true"></i>
                 <p>Create Account</p>
             </button>
@@ -84,12 +85,13 @@
                 <a href="#">Terms</a> and have read and acknowledge our <a href="#"> Privacy Statement</a>.</p>
 
         </footer>
-        <div class="trans-footer">
 
-            <p> Invisible reCAPTCHA by Google <a href="#"> Privacy Policy</a> and <a href="#"> Terms of Use.</a> </p>
-
-        </div>
     </main>
+    <div class="trans-footer">
+
+        <p> Invisible reCAPTCHA by Google <a href="#"> Privacy Policy</a> and <a href="#"> Terms of Use.</a> </p>
+
+    </div>
     <!--footer-body-->
     <footer class="footer-body">
         <nav class="footer-nav flex-center ">
@@ -99,7 +101,8 @@
                 <li> <a href="#">Security</a> </li>
             </ul>
         </nav>
-        <p class="copy">&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        <p class="copy">&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and
+            Mint are registered trademarks of Intuit Inc.
             Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
 </body>
